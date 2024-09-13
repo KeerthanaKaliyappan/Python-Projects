@@ -2,6 +2,8 @@
 
 #Passing the role or behaviour in System role & passing the prompt in user role
 
+#Temperature field denotes the level of randomness or relevance of output to the prompt
+
 from openai import OpenAI
 
 client=OpenAI(
